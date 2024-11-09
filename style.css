@@ -1,0 +1,96 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 150px;
+}
+.resume-container {
+  display: flex;
+  background-color: #c3bbd617;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border-radius: 0 0 20px rgb(1, 122, 131);
+  box-shadow: 0 0 0 20px rgb(173, 206, 206);
+}
+
+.left-Section {
+  background-color: #017a83;
+  color: #f5deb3;
+  padding: 20px;
+  width: 35%;
+  text-align: center;
+  border-right: 5px solid #017a83;
+}
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  margin-top: 5%;
+  border-radius: 50%;
+  border: 5px solid #c7781e;
+  margin-bottom: 5px;
+}
+
+
+h1 {
+  color: rgb(199, 120, 31); 
+  font-family: "Georgia", serif; 
+  font-size: 28px; 
+  font-weight: bold; 
+  text-align: center; 
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0 10px;
+  color: black;
+  background-color: #d1cece; 
+  border-radius: 10px; 
+  border: 1px solid #14bacc; 
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.right-section {
+  padding: 20px;
+  width: 65%;
+}
+
+.skills {
+  margin-top: 20px;
+}
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.skill-bar {
+  width: 80%;
+  height: 8px;
+  background-color: #90892d4b;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.skill-bar div {
+  height: 100%;
+  background-color: #c7781e;
+  width: 80%; 
+}
+
+button {
+  font-size: Arial, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+}
+button:hover {
+  background-color: #017a83;
+}
+
