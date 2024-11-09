@@ -31,14 +31,13 @@ body {
   margin-bottom: 5px;
 }
 
-
 h1 {
-  color: rgb(199, 120, 31); 
-  font-family: "Georgia", serif; 
-  font-size: 28px; 
-  font-weight: bold; 
-  text-align: center; 
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  color: rgb(199, 120, 31);
+  font-family: "Georgia", serif;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   margin: 10px 0;
 }
 
@@ -47,9 +46,9 @@ h2 {
   padding: 10px;
   margin: 20px 0 10px;
   color: black;
-  background-color: #d1cece; 
-  border-radius: 10px; 
-  border: 1px solid #14bacc; 
+  background-color: #d1cece;
+  border-radius: 10px;
+  border: 1px solid #14bacc;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -79,7 +78,7 @@ h2 {
 .skill-bar div {
   height: 100%;
   background-color: #c7781e;
-  width: 80%; 
+  width: 80%;
 }
 
 button {
