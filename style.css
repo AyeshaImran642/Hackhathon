@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
 body {
   font-family: "Arial", sans-serif;
   background-color: #f4f4f4;
@@ -8,12 +14,12 @@ body {
 .resume-container {
   display: flex;
   flex-direction: row;
-  background-color: #c3bbd617;
+  max-width: 100%; 
   width: 90%;
   margin: 20px auto;
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(173, 206, 206);
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .left-Section {
@@ -106,6 +112,7 @@ button:hover {
   .right-section {
     width: 100%;
     text-align: center;
+    padding: 15px;
   }
   .profile-picture {
     width: 80px;
